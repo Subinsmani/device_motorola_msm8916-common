@@ -267,5 +267,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-motorola
 $(call inherit-product-if-exists, vendor/motorola/msm8916-common/msm8916-common-vendor.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-#LOL 64 Bit 😜
-#Lol API OR HAL3😋
+
