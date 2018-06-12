@@ -31,3 +31,5 @@ allow system_server usf:unix_stream_socket connectto;
 allow system_server wcnss_filter:unix_stream_socket connectto;
 
 unix_socket_connect(system_server, cnd, cnd)
+
+allow system_server qti_debugfs:file {read};
