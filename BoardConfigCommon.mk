@@ -99,7 +99,6 @@ TARGET_USES_NEW_ION_API := true
 # Display Renderer
 OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 USE_OPENGL_RENDERER := true
-#TARGET_USES_HWC2 := true
 
 # FM
 BOARD_HAVE_QCOM_FM := true
