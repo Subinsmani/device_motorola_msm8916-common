@@ -98,6 +98,44 @@ etc/firmware/a300_pm4.fw
 etc/firmware/a420_pfp.fw
 etc/firmware/a420_pm4.fw
 
+# IMS
+-app/ims/ims.apk|24aee26c7409564400ce093520408242863630c6
+-app/imssettings/imssettings.apk
+-app/uceShimService/uceShimService.apk
+etc/permissions/qti-vzw-ims-internal.xml
+etc/permissions/com.qualcomm.qti.imscmservice.xml
+framework/com.qualcomm.qti.imscmservice@1.0-java.jar
+lib/com.qualcomm.qti.imscmservice@1.0.so
+lib/lib-imscamera.so
+lib/lib-imsvideocodec.so|f3a33245f325249c8bc8939f997df49d58a9284c
+lib/lib-imsvtextutils.so
+lib/lib-imsvtutils.so
+lib/libimscamera_jni.so
+lib/libimsmedia_jni.so
+lib/librcc.so
+lib/vendor.qti.imsrtpservice@1.0.so
+lib/lib-imsvt.so
+vendor/bin/ims_rtp_daemon
+vendor/bin/imsdatadaemon
+vendor/bin/imsqmidaemon
+vendor/bin/imsrcsd
+-vendor/framework/qti-vzw-ims-internal.jar
+vendor/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so
+vendor/lib/lib-imsSDP.so
+vendor/lib/lib-imscmservice.so
+vendor/lib/lib-imsdpl.so
+vendor/lib/lib-imsqimf.so
+vendor/lib/lib-imsxml.so
+vendor/lib/lib-rtpcommon.so
+vendor/lib/lib-rtpcore.so
+vendor/lib/lib-rtpdaemoninterface.so
+vendor/lib/lib-rtpsl.so
+vendor/lib/lib-uceservice.so
+vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so
+vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so
+vendor/lib/vendor.qti.hardware.radio.ims@1.0_vendor.so
+vendor/lib/lib-dplmedia.so
+
 # Qualcomm framework
 bin/irsc_util
 vendor/lib/libdiag.so
